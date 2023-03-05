@@ -1,0 +1,868 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+#container {
+    width: 70%;
+    background-color: white;
+    height: 100vh;
+    margin: auto;
+}
+
+#first {
+    display: flex;
+    color: white;
+    background-color: rgb(55, 126, 207);
+    height: 50px;
+    width: 100%;
+}
+
+#first h1 {
+    margin: 20px;
+    padding-left: 25px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 10;
+    align-self: center;
+}
+
+#first .first_1 {
+    margin-left: 37%;
+    align-self: center;
+}
+
+#first .fa-brands {
+    font-size: 18px;
+    padding: 0px 20px;
+}
+
+#second {
+    background-color: white;
+}
+
+#second .second_1 {
+    height: 50px;
+    width: 100px;
+    background: url(head.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 36%;
+    border-radius: 10%;
+
+}
+
+#second nav {
+    display: flex;
+    height: 85px;
+    align-items: center;
+    justify-content: end;
+}
+
+#second nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+#second a {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: 0px 10px;
+    color: black;
+}
+
+#second a:hover {
+    color: rgb(55, 126, 207);
+
+}
+
+
+#second .second_2 {
+    margin-right: 55px;
+}
+
+#third {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(cor.webp);
+    height: 400px;
+    color: white;
+}
+
+#third h3 {
+    text-align: end;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-top: 70px;
+    padding-right: 60px;
+}
+
+#third h1 {
+    text-align: end;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 60px;
+}
+
+#third p {
+    width: 40%;
+    /* text-align:start; */
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-left: 55%;
+    margin-top: 25px;
+    word-break: break-all;
+}
+
+#third button {
+    padding: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 25px;
+}
+
+#third .cont {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+}
+
+#third .hire {
+    border: 2px solid rgb(55, 126, 207);
+    background: rgb(55, 126, 207);
+    color: white;
+    margin-left: 75%;
+    margin-right: 25px;
+}
+
+#four {
+    height: 400px;
+    background-color: white;
+}
+
+#four .about {
+    border-bottom: 2px solid rgb(55, 126, 207);
+    width: 150px;
+    margin: auto;
+}
+
+#four h2 {
+    text-align: center;
+    padding-top: 35px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#four .fle {
+    display: flex;
+    margin: 40px;
+}
+
+#four .four_1 {
+    width: 30%;
+    height: 250px;
+    background: url(sales.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 2%;
+}
+
+#four .four_2 {
+    width: 68%;
+    height: 250px;
+    color: black;
+}
+
+#four .four_2 .upper,
+.down {
+    margin-top: 23px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#five {
+    background: white;
+    height: 350px;
+}
+
+#five .about_1 {
+    border-bottom: 2px solid rgb(55, 126, 207);
+    margin: auto;
+    text-align: center;
+    width: 210px;
+}
+
+#five .about_1 h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#five .outer {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 60px 45px;
+    margin-right: 10px;
+
+}
+
+#five .outer .one {
+    height: 170px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: rgb(180, 180, 180);
+}
+
+#five .outer .one h2 {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#five .outer .one p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+#five .outer .one .one_1,
+.one_2,
+.one_3 {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: -220px;
+    left: 100px;
+}
+
+#five .outer .one .one_1 {
+    background: url(pen.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    outline: 4px solid rgb(180, 180, 180);
+    outline-offset: 4px;
+}
+
+#five .outer .one .one_2 {
+    background: url(laptop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    outline: 4px solid rgb(180, 180, 180);
+    outline-offset: 4px;
+}
+
+#five .outer .one .one_3 {
+    background: url(magnify.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    outline: 4px solid rgb(180, 180, 180);
+    outline-offset: 4px;
+}
+
+#six {
+    height: 700px;
+    background: white;
+}
+
+#six .port {
+    border-bottom: 2px solid rgb(55, 126, 207);
+    margin: auto;
+    text-align: center;
+    width: 250px;
+}
+
+#six .port h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#six .six_1 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    margin: 60px 50px;
+}
+
+#six .six_1 .one {
+    width: 24%;
+    height: 35%;
+    margin-right: 1%;
+    background: url(one.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#six .six_1 .two {
+    width: 24%;
+    height: 55%;
+    margin-right: 1%;
+    background: url(two.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#six .six_1 .three {
+    width: 24%;
+    height: 35%;
+    margin-right: 1%;
+    background: url(three.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#six .six_1 .four {
+    width: 23%;
+    height: 55%;
+    background: url(four.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#six .six_1 .five {
+    width: 24%;
+    height: 61%;
+    margin-right: 1%;
+    position: relative;
+    top: -100px;
+    background: url(five.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#six .six_1 .six {
+    width: 24%;
+    height: 41%;
+    margin-top: 2%;
+    margin-right: 1%;
+    background: url(six.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#six .six_1 .seven {
+    width: 24%;
+    height: 61%;
+    margin-right: 1%;
+    position: relative;
+    top: -100px;
+    background: url(seven.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#six .six_1 .eight {
+    width: 23%;
+    height: 41%;
+    margin-top: 2%;
+    background: url(eight.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#seven {
+    height: 400px;
+    background: white;
+}
+
+#seven .team {
+    border-bottom: 2px solid rgb(55, 126, 207);
+    margin: auto;
+    text-align: center;
+    width: 160px;
+
+}
+
+#seven .team h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+
+#seven .picture {
+    display: flex;
+    height: 200px;
+    width: 89%;
+    margin: 30px 50px;
+    justify-content: space-between;
+}
+
+#seven .picture .hh {
+    height: 200px;
+    width: 220px;
+}
+
+#seven .picture .one {
+    background: url(hh1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#seven .picture .two {
+    background: url(hh2.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#seven .picture .three {
+    background: url(hh3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#seven .picture .four {
+    background: url(hh4.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#seven .picture .back {
+    height: 100%;
+    width: 25%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    display: flex;
+    margin-left: 75%;
+    flex-direction: column;
+}
+
+#seven .picture .back .three_1 {
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+
+#seven .picture .back .three_2 {
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+#seven .picture .back .three_3 {
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+
+#seven .picture .back .three_1 .fa-brands {
+    color: white;
+    margin-left: 9px;
+    margin-top: 7px;
+}
+
+#seven .picture .back .three_2 .fa-brands {
+    color: white;
+    margin-left: 9px;
+    margin-top: 7px;
+}
+
+#seven .picture .back .three_3 .fa-brands {
+    color: white;
+    margin-left: 9px;
+    margin-top: 7px;
+}
+
+#seven .picture .back .three_4 .fa-brands {
+    color: white;
+    margin-left: 9px;
+    margin-top: 7px;
+}
+
+
+#seven .picture .back .three_4 {
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+#seven .description{
+    display: flex;
+    justify-content: space-around;
+}
+
+#seven .description h2{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+#seven .description p{
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+#eight{
+        height: 400px;
+        background: white;
+}
+
+#eight .test {
+    border-bottom: 2px solid rgb(55, 126, 207);
+    margin: auto;
+    text-align: center;
+    width: 190px;
+}
+
+#eight .test h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+
+#eight .eight_1{
+    display: flex;
+    margin : 20px 50px;
+    justify-content: space-around;
+}
+
+#eight .eight_1 .eight_2{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background: url(hh4.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#eight .eight_1 .eight_3{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background: url(hh3.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#eight .star{
+    display: flex;
+    margin: 0px 50px;
+}
+
+#eight .star .eight_4 {
+    margin: 0px 20px;
+    background: rgb(180, 180, 180);
+    border-radius: 5px;
+}
+
+#eight .star .eight_6{
+    margin: 0px 10px;
+    background: rgb(180, 180, 180);
+    border-radius: 5px;
+}
+
+#eight .star .eight_4 h2 ,.eight_6 h2{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+
+#eight .star .eight_4 span, .eight_6 span{
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 50%;
+    color: rgb(55, 126, 207);
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+#eight .star .eight_4 h5,.eight_6 h5{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+
+#eight .star .eight_4 p, .eight_6 p{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin: 10px 0px;
+}
+
+#eight .star .eight_4 .eight_5, .eight_6 .eight_7{
+    height: 0px;
+    width: 0px;
+    border: 20px solid transparent;
+    border-bottom-color: rgb(180, 180, 180);
+    position: relative;
+    top: -185px;
+    left: 200px;
+}
+
+#nine{
+    height: 300px;
+    background: rgb(30, 25, 25);
+    display: flex;
+    padding: 20px;
+    padding-left: 70px;
+    color: white;
+}
+
+#nine .nine_1{
+    background: url(head.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+#nine .new{
+    width: 25%;
+}
+
+#nine .new p{
+    /* border: 2px solid red; */
+    padding-top: 20px;
+}
+
+#nine .nine_2{
+    width: 23%;
+}
+
+#nine .nine_2 h2{
+    text-transform: capitalize;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+#nine .nine_2 .number{
+    display: flex;
+    flex-direction: row;
+}
+
+#nine .nine_2 .number .fa-solid{
+    height: 30px;
+    width: 40px;
+    text-align: center;
+    padding-top: 12px;
+    margin-top: 12px;
+    background-color: rgb(55, 126, 207);
+    border-radius: 50%;
+}
+
+#nine .nine_2 .number p{
+    margin: 10px;
+}
+
+
+#nine .nine_2 .mail .fa-solid{
+    height: 30px;
+    width: 40px;
+    text-align: center;
+    padding-top: 12px;
+    margin-top: 15px;
+    background-color: rgb(55, 126, 207);
+    border-radius: 50%;
+}
+
+#nine .nine_2 .mail_1 p{
+    margin: 10px;
+    width: 100%;
+    font-size: 15px;
+}
+
+#nine .nine_2 .mail_1{
+    display: flex;
+    flex-direction: column;
+}
+
+#nine .nine_2 .mail{
+    display: flex;
+}
+
+
+
+#nine .nine_2 .web{
+    display: flex;
+}
+
+#nine .nine_2 .web .fa-solid{
+    height: 30px;
+    width: 40px;
+    text-align: center;
+    padding-top: 12px;
+    margin-top: 15px;
+    background-color: rgb(55, 126, 207);
+    border-radius: 50%;
+}
+
+
+#nine .nine_2 .web .web_2 {
+    margin: 10px;
+    width: 100%;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+
+#nine .nine_2 .web .web_2 a{
+    color: white
+}
+
+
+#nine .nine_3{
+    margin: 0px 15px;
+    height: 250px;
+}
+
+
+#nine .nine_3 h2{
+    text-transform: capitalize;
+    margin-bottom: 30px;
+
+}
+
+#nine .nine_3 .inner{
+    display: flex;
+}
+
+#nine .nine_3 .inner a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+#nine .nine_3 .inner_1{
+    display: flex;
+    flex-direction: column;
+}
+
+#nine .nine_3 .inner_2{
+    display: flex;
+    flex-direction: column;
+}
+
+#nine .nine_4 h2{
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+#nine .nine_4{
+    width: 65%;
+
+}
+
+#nine .nine_5{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#nine .nine_5 .tt{
+    height: 100px;
+    width: 105px;
+    background-color: white;
+    margin: 10px;
+}
+
+#nine .nine_5 .one{
+    background: url(one.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#nine .nine_5 .two{
+    background: url(six.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#nine .nine_5 .three{
+    background: url(hh1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#nine .nine_5 .four{
+    background: url(hh2.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#nine .nine_5 .six{
+    background: url(hh3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#nine .nine_5 .five{
+    background: url(hh4.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#ten{
+    height: 20px;
+    background: rgb(75, 75, 75);
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    padding:10px ;
+}
+
+#ten span{
+    color: rgb(55, 126, 207);
+}
+
+
